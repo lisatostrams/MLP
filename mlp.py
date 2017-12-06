@@ -89,7 +89,7 @@ class MLP:
         print('Final misclassification rate: {:.4f}'.format(self.class_error(self.forwardprop(W_h, W_o, self.X)[1])))
         self.forwardprop(W_h, W_o, self.X)[1]
         self.done=True
-        return W_h,W_o,o       
+        return W_h,W_o   
         
     
     def plot_boundaries(self,W1,W2,Data):
